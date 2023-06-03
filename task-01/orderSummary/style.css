@@ -1,0 +1,129 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.wrapper {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	background-color: hsl(225, 100%, 94%);
+	padding: 1em;
+}
+
+.wrapper::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 50%;
+	background-image: url(./images/pattern-background-desktop.svg);
+	background-size: cover;
+	background-position: center 100%;
+}
+
+.card {
+	width: 450px;
+	margin: 0 auto;
+	display: block;
+	background-color: white;
+	font-family: "Red Hat Display", sans-serif;
+	text-align: center;
+	font-size: 16px;
+	line-height: 1.3;
+	border-radius: 20px;
+	z-index: 1;
+}
+
+.card-image {
+	background-image: url("./images/illustration-hero.svg");
+	height: 220px;
+	background-position: center;
+	background-size: cover;
+	border-radius: 20px 20px 0 0;
+}
+
+.card-description {
+	padding: 3em;
+}
+
+.card-description h2 {
+	color: hsl(223, 47%, 23%);
+	font-size: 1.8em;
+	font-weight: 900;
+}
+.card-description p {
+	color: hsl(224, 23%, 55%);
+	margin: 1.2em 0;
+	line-height: 1.5;
+}
+
+.offer svg {
+	width: 48px;
+	height: 48px;
+	color: hsl(224, 23%, 55%);
+}
+
+.offer {
+	background-color: hsl(225, 100%, 98%);
+	display: flex;
+	align-items: center;
+	padding: 1.8em 1em;
+	border-radius: 10px;
+}
+
+.offer-price {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 auto 0 18px;
+}
+
+.price {
+	color: hsl(224, 23%, 55%);
+}
+
+.text {
+	font-weight: 700;
+}
+
+.offer div + a {
+	color: hsl(245, 75%, 52%);
+	text-decoration: underline;
+}
+
+.offer a:hover {
+	color: hsl(245, 75%, 52%, 0.7);
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.button {
+	width: 100%;
+	background-color: hsl(245, 75%, 52%);
+	border: none;
+	margin: 1.5em 0 2em;
+	font-family: "Red Hat Display", sans-serif;
+	font-size: 1em;
+	font-weight: 700;
+	color: hsl(0, 0%, 100%);
+	padding: 1em;
+	border-radius: 10px;
+	box-shadow: 0 20px 20px hsl(225deg 100% 90%);
+}
+
+.button:hover {
+	opacity: 0.7;
+	cursor: pointer;
+}
+
+.card-description a {
+	color: hsl(224, 23%, 55%);
+	font-weight: 700;
+	text-decoration: none;
+}
+
+.card-description a:hover {
+	color: hsl(223, 47%, 23%);
+}
