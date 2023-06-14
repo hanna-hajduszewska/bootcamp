@@ -1,0 +1,21 @@
+Szkielet HTML:
+- logo,nawigacja z linkami i przyciski logowania umieszczone w tagu <header>
+- elementy nawigacji umieszczone w tagu <nav>
+- główna część strony podzielona na dwie sekcje 
+- w pierwszym, tekstowym <section> umieszczone nagłówek <h1>, tekst, button, logo firm
+- logo firm umieszczone w tagu <ul>
+- w drugim <section> umieszczamy obrazki w tagu <img>, dla desktopu oraz dla mobile
+- utworzenie pliku style.css i zaimplementowanie go sekcji head 
+- pobranie czcionek do projektu i zamieszczenie ich linków w sekcji head
+
+CSS:
+
+Podstawowy layout strony zdefiniowany przy pomocy Grid Template Areas
+Rozmieszczenie elementów wewnątrz nawigacji przy pomocy flex.
+Stylizowanie nawigacji zgodnie z wytycznymi style-guide.md.
+Rozmieszczenie elementów i stylizowanie poszczególnych elementów sekcji tekstowej zgodnie z wytycznymi zawartymi w pliku style-guide.md
+Elementy zawirające logo firm rozmieszczone za pomocą flexa.
+Zdjęcie na desktopie ustawione pod względem jego szerokości, wysokość automatyczna, bez przycinania. 
+
+
+
